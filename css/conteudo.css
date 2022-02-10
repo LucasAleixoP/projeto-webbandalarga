@@ -1,0 +1,226 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.sections{
+    background-color: rgb(243, 156, 17);
+}
+
+
+.fundo{
+    height: 100%;
+    width: 100%;
+}
+
+
+.planos , .servicos {
+    width: 102.4rem;
+    margin: auto;
+    /* padding: 4rem 0; */
+    display: flex;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.planos > h1{
+    font-size: 5rem;
+    text-align: center;
+    width: 100%;
+    text-shadow: 0.1rem 0.1rem black;
+}
+
+.planos{
+    background:linear-gradient(#d8d8d8, transparent 50%) ;
+}
+
+.plano{
+    width: 30.2rem;
+    border-radius: 2.5rem;
+    box-shadow: 0 0 10px 5px #666;
+    padding-bottom: 1rem;
+    background-color: #fff;
+
+}
+
+.header-plano{
+    background-color: var(--main-color);
+    height: 10rem;
+    border-radius: 2.5rem 2.5rem 0 0;
+    border: solid transparent;
+
+}
+
+.pacote{
+    text-align: center;
+    font-size: 4rem;
+    color:#fff;
+    margin-top: 1rem ;
+}
+
+.t1{
+    font-weight: bold;
+}
+
+.t2{
+    font-weight: thin;
+}
+
+.lista-plano{
+    margin: 1rem 0 1rem 1.5rem;
+}
+
+.lista-plano > li {
+    display: block;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+}
+
+.lista-plano > li > img{
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.valor-plano{
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.assine{
+    background-color: rgb(235, 142, 21);
+    font-size: 2rem;
+    width: 50%;
+    padding: 0.2rem;
+    color: #fff;
+    border-radius: 2.5rem;
+    margin: 1rem auto;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+
+.termos{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.servicos{
+    background-color: var(--main-color);
+    align-items: center;
+}
+
+.mais{
+    background-color: rgb(235, 142, 21);
+    font-size: 2rem;
+    width: 10rem;
+    padding: 0.2rem;
+    color: #fff;
+    border-radius: 2.5rem;
+    margin: 1rem auto;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+
+.servicos > p{
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    color:#fff;
+    margin-top: 1rem ;
+    margin-bottom: 2rem;
+}
+
+.servicos > a > img{
+    width: 40rem;
+    border-radius: 2.5rem;
+    box-shadow: 0 0 1.2rem white;
+    margin-bottom: 5rem;
+}
+
+.rodape{
+    background-color: rgb(92, 91, 91);
+}
+
+.footer{
+    width: 102.4rem;
+    margin: auto;
+    padding: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.utilidades, .assinante, .contatos  {
+    width: 15rem;
+    height: auto;
+    border: solid 0.2rem orange;
+}
+
+.contato{
+    background-color: black;
+}
+
+.footer > div > p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.info > li > a{
+    font-size: 1.5rem;
+    font-weight: thin;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.info{
+    margin-top: 0.5rem;
+}
+
+.local{
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    border-top: 0.1rem white solid;
+    border-bottom: 0.1rem white solid;
+    padding: 1.5rem 1rem;
+    font-size: 1.4rem;
+    align-items: center;
+}
+
+.endereco{
+    width: 70%;
+    padding: 0.5rem;
+}
+
+.telefones{
+    width: 30%;
+}
+
+.telefones > div{
+    margin-top: 1rem;
+}
+
+
+.phone{
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+
+.mais:hover{
+    background-color: var(--main-color);
+}
+
+.assine:hover{
+    background-color: var(--main-color);
+    
+}

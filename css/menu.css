@@ -1,0 +1,98 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logo{
+    width: 10.5rem;
+    margin-left: 10 rem ;
+}
+
+.midia{
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.midia > img{
+    width: 3rem;
+}
+
+.menu{
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    background-color: var(--main-color);
+    margin: auto;
+    justify-content: center;
+    padding: 1rem 0 1rem 0; 
+    position: sticky;
+    top: 0px;
+    /* position: fixed;
+    left: 0;
+    right: 0; */
+}
+
+.paginas{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 2rem;
+    margin: 0 1rem 0 1rem;
+    color: white;
+    top: 10rem;
+
+}
+
+.paginas > li{
+    margin: 1rem;     
+}
+
+.paginas > li> a{
+    color: aliceblue;
+    position: relative;    
+}
+
+.paginas > li > a::after{
+    content: '';
+    position: absolute;
+    top: -0.5rem;
+    left: 2%;
+    width: 0;
+    height: 0.2rem;
+    background-color: white;
+    transition: all 300ms ease-in-out;
+ }
+
+.paginas > li >a:hover::after{
+    width: 100%;
+}
+
+.paginas li:hover > .sub{
+    display: block;
+}
+
+
+
+.sub{
+    position: absolute;
+    display: none;
+}
+
+.sub > li > a{
+    position: relative;
+    left: -1px;
+    border: solid 0.1rem black;
+    margin-top: 0.1rem;
+    background-color: #485ba5;
+    color: aliceblue;
+    
+}
+
+

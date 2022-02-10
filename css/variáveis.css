@@ -1,0 +1,8 @@
+:root{
+    --main-color:#1e317f;
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
